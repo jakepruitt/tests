@@ -25,3 +25,4 @@ Presentation for Phoenix Wordpress Meetup
 - https://github.com/juliangruber/tape-run
 - https://theintern.github.io/
 - https://github.com/manovotny/wptest
+- http://casperjs.org/

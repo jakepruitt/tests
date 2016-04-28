@@ -128,15 +128,14 @@ window.onload = function() {
 <div>Ghost <em>Tests</em></div>
 <div><img src="img/jake.jpg"/></div>
 <div><img src="img/jake.jpg"/>Jake</div>
-<div><img src="img/jake.jpg"/>Developer</div>
-<div><img src="img/jake.jpg"/><strike>Developer</strike> <em>Sidekick</em></div>
+<div><img src="img/jake.jpg"/>Programmer</div>
 <div><img src="img/mapbox.png"/></div>
-<div><img src="img/vector-terrain.gif"/></div>
+<div><img src="img/vector-terrain.png"/></div>
+<div><img src="img/mapbox-streets.png"/></div>
 <div>Story</div>
 <div>Sad Story</div>
 <div>The time I was attacked by an army of ghosts for not writing tests</div>
 <div><img src="img/writing-code.jpg"/></div>
-<div><img src="img/aha.gif"/></div>
 <div><img src="img/aha.gif"/></div>
 <div><img src="img/skeleton-army.jpg"/></div>
 <div><img src="img/skeleton-biting.png"/></div>
@@ -152,11 +151,114 @@ window.onload = function() {
 <div>I'm not a skeleton</div>
 <div>I'm just fine</div>
 <div>Sometimes it feels like</div>
-<div>We should be writing more tests</div>
-<div>and we feel guilty</div>
-<div>but we don't know <em>why</em> we're doing it</div>
+<div>I should be writing more tests</div>
+<div>and I feel guilty</div>
+<div>but I don't know <em>why</em> I'm doing it</div>
+<div>guilt<br/>guilt<br/>guilt</div>
+<div>shame<br/>shame<br/>shame</div>
+<div>skeleton army</div>
 <div><img src="img/corporate.jpg"/></div>
 <div><img src="img/shuttle.jpg"/></div>
-<div>maybe you have always written them</div>
-<div>maybe you've never written them</div>
+<div>writing tests is hard</div>
+<div>It takes a lot of time</div>
+<div>when you could be <em>writing applications</em></div>
+<div>when you could be <em>answering emails</em></div>
+<div>when you could be <em>finding clients</em></div>
+<div>So why write <em>tests</em>?</div>
+<div>maybe you've always written tests</div>
+<div>maybe you've never written tests</div>
 <div><em>Why</em> and <em>how</em> to unit test</div>
+<div>Time travel and growth and regression</div>
+<div><img src="img/young.png"/></div>
+<div><img src="img/young.png"/>Young</div>
+<div>"I'll talk to you in the future through my tests"<br/><br/>- Young Hahn</div>
+<div><img src="img/confused.png"/></div>
+<div>Bottle up what you know about your code</div>
+<div>And make sure that it holds true every time someone makes a change</div>
+<div>"They're like me sitting around a project telling you about different parts of it."</div>
+<div>"Except unlike me, tests are not a finite resource."</div>
+<div>Scale</div>
+<div>"To me it's a way to be generous to others and to respect and protect our time as a team."</div>
+<div><img src="img/emily.png"/></div>
+<div><img src="img/emily.png"/>Emily</div>
+<div>"How I work with somebody who is learning X"<br/><br/>- Emily McAfee</div>
+<div>Start with tests</div>
+<div>"Most people are already familiar with articulating desired outcomes..."</div>
+<div>"... do it in English and then turn those expectations into code, together."</div>
+<div><img src="img/user-story.png"/></div>
+<div><img src="img/failing.png"/></div>
+<div><img src="img/passing.png"/></div>
+<div><img src="img/ryan.png"/></div>
+<div><img src="img/ryan.png"/>Ryan</div>
+<div>"Tests or it didn't happen"<br/><br/>- Ryan Clark</div>
+<div>"Tests are your proof to the rest of the world that your code works."</div>
+<div><img src="img/grimace.png"/></div>
+<div>Does he really mean that?</div>
+<div>Yes</div>
+<div>He for sure does</div>
+<div>Why?</div>
+<div>Every line of code matters</div>
+<div>Even if it's not broken today</div>
+<div>Untested code could break tomorrow</div>
+<div>Without anyone knowing</div>
+<div><em>Regression</em></div>
+<div>The Worst</div>
+<div><img src="img/skeleton-army.jpg"/></div>
+<div><img src="img/skeleton-pirate.gif"/></div>
+<div>It used to work<br/><br/><br/></div>
+<div>It used to work<br/><em>but now it doesn't</em></div>
+<div>How do you prevent regression?</div>
+<div>How do <strike>you</strike> <em>really busy people with no time to write tests</em> prevent regression?</div>
+<div>Let's start simple</div>
+<div>Written release checklist</div>
+<div>I love checklists</div>
+<div>Simplest for of tests</div>
+<div><img src="img/unchecked.png"/></div>
+<div><img src="img/checked.png"/></div>
+<div>Guarunteed to reduce regressions</div>
+<div>Measure twice cut once</div>
+<div>Test twice release once</div>
+<div>But it doesn't scale</div>
+<div>Automate</div>
+<div><img src="img/ghost-inspector.png"/></div>
+<div>Visual comparison<br/><br/><br/><br/></div>
+<div>Visual comparison<br/>Videos of test runs<br/><br/></div>
+<div>Visual comparison<br/>Videos of test runs<br/>No code required</div>
+<div>Run on every release</div>
+<div>Run on every <strike>release</strike> <em>commit</em></div>
+<div><img src="img/travis.png"/></div>
+<div><img src="img/circle.png"/></div>
+<div>But this also doesn't scale</div>
+<div>Becomes very repetitive very quickly</div>
+<div>Extract shared components and test them rigorously</div>
+<div><code>functions.php</code></div>
+<div>Create plugins with separate repos and controlled tests</div>
+<div><img src="img/phpunit.png"/></div>
+<div>Test twice</div>
+<div>Release once</div>
+<div>But I'm not a php developer</div>
+<div>I'm a javascript developer</div>
+<div>write modules<br/><br/><br/></div>
+<div>write modules<br/>test modules<br/><br/></div>
+<div>But regressions can still happen</div>
+<div><img src="img/unit.jpg"/></div>
+<div><img src="img/unit.jpg"/>2 unit tests<br/><br/><br/></div>
+<div><img src="img/unit.jpg"/>2 unit tests<br/>0 integration tests</div>
+<div>Impossible to test everything</div>
+<div>Difficult to test edge cases</div>
+<div><img src="img/sentry.png"/></div>
+<div>Many more Important things</div>
+<div>Mocking<br/>BDD<br/>TDD<br/>Frameworks<br/>Cross-browser<br/>Code coverage<br/>Headless browsers<br/>Performance testing</div>
+<div>My list of testing tools: <a href="https://github.com/jakepruitt/tests">https://github.com/jakepruitt/tests</a></div>
+<div>But what's the most important thing?</div>
+<div>Testing comes down to culture</div>
+<div>Testing comes down to trust</div>
+<div>People naturally dislike tests</div>
+<div>But tests are how you can scale your team, and scale yourself</div>
+<div><br/><br/>"How am I scaling?"<br/><br/></div>
+<div><img src="img/young.png"/></div>
+<div>"We can stay small but win big if every project, every bugfix, every decision can be maintained not by us but by snapshots of us" <br/><br/>- Young</div>
+<div>Stay scrappy<br/><br/></div>
+<div>Stay scrappy<br/>Write tests</div>
+<div>Don't get attacked by the skeleton army</div>
+<div><br/><br/>Questions?</div>
